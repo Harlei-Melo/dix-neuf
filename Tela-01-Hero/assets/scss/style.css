@@ -136,6 +136,7 @@ body {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   transition: 0.5s ease;
+  margin-right: 25px;
 }
 .nav__button:hover {
   background: rgba(255, 255, 255, 0.12);
@@ -154,6 +155,12 @@ body {
   right: 0;
 }
 
+@media screen and (max-width: 376px) {
+  .nav__button {
+    padding: 0.8rem 1.125rem;
+    font-size: 0.813rem;
+  }
+}
 .home {
   position: relative;
   height: 100vh;
