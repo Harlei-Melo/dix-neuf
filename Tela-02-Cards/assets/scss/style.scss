@@ -40,11 +40,11 @@ a {
   text-decoration: none;
 }
 
-.fa-regular{
+.fa-regular {
   font-size: 42px;
 }
 
-.fa-solid{
+.fa-solid {
   font-size: 42px;
 }
 
@@ -136,13 +136,21 @@ a {
   padding: 0.6rem 4.5rem;
 
   border-radius: 2rem;
-  
+
   font-weight: 500;
   color: #fff;
   background: transparent;
   border: 1px solid #fafafa;
+  transition: .3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
 }
- 
+
 
 .card__orange {
   --hue-1: 702;
